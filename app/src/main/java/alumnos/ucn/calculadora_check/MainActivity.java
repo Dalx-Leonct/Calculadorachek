@@ -13,7 +13,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     EditText num1, num2;
     CheckBox suma, resta, multiplicacion, division;
-    Button calcular;
     TextView resultado;
 
 
