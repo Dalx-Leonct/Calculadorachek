@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/num1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ingresar Primer Numero"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/num2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ingresar Segundo Numero"
+        android:inputType="number" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <CheckBox
+            android:id="@+id/sumar"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:text="Suma"
+            android:textSize="15sp" />
+
+        <CheckBox
+            android:id="@+id/restar"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:text="Resta"
+            android:textSize="15sp" />
+
+        <CheckBox
+            android:id="@+id/multiplicar"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:text="Mul"
+            android:textSize="15sp" />
+
+        <CheckBox
+            android:id="@+id/dividir"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:text="Div"
+            android:textSize="15sp" />
+
+
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/resultado"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="00"
+        android:textSize="40sp" />
+
+
+</LinearLayout>
